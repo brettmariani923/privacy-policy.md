@@ -1,120 +1,245 @@
-# Privacy Policy for Scout Accountability
+🔒 PRIVACY POLICY — Scout Accountability
 
 **Last updated:** December 07, 2025  
 
-Scout Accountability (“the Extension”) is a Chrome browser extension designed to help users stay accountable by detecting visits to user-defined blocked websites and sending alert emails to an accountability partner. This Privacy Policy explains what data the Extension accesses, how it is used, and how it is protected.
+Thank you for using Scout Accountability.
+This Privacy Policy explains how your information is collected, used, and protected when using our Chrome extension.
 
----
+If you have any questions, contact: brettmariani923@gmail.com
 
-## 1. Information We Access
+📌 1. Information We Collect
 
-Scout Accountability only accesses data necessary to perform its single purpose. The Extension may access the following information:
+Scout Accountability collects only the information necessary for its functionality.
 
-### 1.1 Web History (URLs Visited)
-- The Extension reads the URL of the active tab to determine whether it matches a site on the user’s blocked-site list.  
-- No browsing history is stored, logged, profiled, or transmitted unless the URL is on the blocked list **and** an alert is triggered.
+We collect the following:
 
-### 1.2 Website Content (Screenshots)
-When the user visits a blocked website, the Extension captures a screenshot of the active tab.
+1.1 User-Provided Email Address
+
+Used to send accountability alerts
+
+Used to validate subscription status
+
+Stored in your local browser (Chrome storage)
+
+Sent to our secure backend for subscription verification and email delivery
+
+1.2 Screenshots of Blocked Websites (When Triggered)
+
+Scout may capture a screenshot only when a user visits a website they added to their Blocked List.
+
+Screenshots include:
+
+The visible content of the active tab at that moment
+
+The URL and timestamp of the visit
 
 Screenshots are:
-- sent directly to the user’s designated accountability partner  
-- **not** kept by the Extension  
-- **not** analyzed, stored, or used for any other purpose  
 
-### 1.3 User-Provided Settings
-The Extension stores the following settings locally using Chrome Storage:
-- list of blocked sites  
-- accountability partner’s email address  
-- monitoring on/off state  
+Never uploaded unless the feature is enabled
 
-This data never leaves the user’s device unless an alert is triggered.
+Never captured automatically without user consent
 
----
+Never collected outside of blocked site visits
 
-## 2. Information We Do **Not** Collect
+1.3 Settings & Preferences
 
-Scout Accountability does **not** collect, store, or process:
-- names  
-- addresses  
-- passwords  
-- financial information  
-- personal communications  
-- keystrokes  
-- analytics or tracking data  
-- advertising identifiers  
+Stored locally in the extension:
 
-The Extension does **not** track users across websites for any reason other than blocked-site detection.
+Blocked website list
 
----
+Monitoring on/off status
 
-## 3. When Data Is Transmitted
+Email address
 
-Data is transmitted **only** when an alert is triggered.
+Subscription activation state
 
-When a blocked site is visited, the Extension sends:
-- the URL  
-- the page title  
-- a screenshot  
-- a timestamp  
+This data never leaves the user’s browser unless required to deliver alert emails.
 
-This information is sent only to:
-- **The user’s backend server hosted on Vercel** (to process the email)  
-- **SendGrid**, an email delivery provider (to send the alert email)  
+1.4 Automatically Sent Diagnostic Events
 
-These services act strictly on behalf of the Extension to deliver its core functionality.
+To support the accountability system, the extension may notify your email address when:
 
----
+Monitoring is enabled or disabled
 
-## 4. Data Sharing
+Settings are changed
 
-Scout Accountability does **not**:
-- sell user data  
-- share data with advertisers  
-- share data with analytics services  
-- transfer data for unrelated purposes  
+The extension is uninstalled
 
-Data is shared only with necessary service providers (Vercel and SendGrid) and solely for sending alert emails selected by the user. These providers do not use the data for their own purposes.
+📌 2. How We Use Your Information
 
----
+We use collected data ONLY for the following purposes:
 
-## 5. Data Retention
+✔ To send accountability alerts
 
-- The Extension does **not** retain screenshots.  
-- The Extension does **not** store visited URLs.  
-- Local settings remain on the user’s device until the user removes the Extension or clears Chrome data.
+(e.g., screenshots of blocked sites, monitoring disabled notices)
 
----
+✔ To deliver subscription services
 
-## 6. Security
+Stripe billing & SendGrid email delivery.
 
-- All communication with the backend server and SendGrid uses **HTTPS encryption**, protecting data during transmission.  
-- Email transmissions may pass through third-party mail servers as part of normal email delivery.
+✔ To notify account holders when Scout is uninstalled
 
----
+Triggered by Chrome’s allowed uninstall URL behavior.
 
-## 7. User Control
+✔ To validate subscription status
 
-Users may:
-- enable or disable monitoring  
-- add or remove blocked sites  
-- update or remove the accountability partner’s email  
-- uninstall the Extension at any time, which removes all locally stored settings  
+Using your email address via secure backend API.
 
----
+We DO NOT use your data for:
 
-## 8. Compliance With Chrome Web Store Policies
+Advertising
 
-Scout Accountability complies with:
-- Google Chrome Web Store User Data Policies  
-- Limited Use Requirements  
-- Single-Purpose and Data Minimization Standards  
+Tracking
 
-All accessed data is used solely for blocked-site detection and alert notifications.
+Analytics
 
----
+Selling to third parties
 
-## 9. Contact
+Profiling or behavioral analysis
 
-For questions or concerns regarding this Privacy Policy, contact:  
-**scoutccntblt@gmail.com**
+📌 3. How We Store & Protect Data
+Local Storage
+
+Most data (blocked sites, settings, email) is stored only inside your Chrome browser using chrome.storage.sync.
+
+Server Storage
+
+The Scout backend temporarily processes:
+
+Screenshot images (only during email sending)
+
+Subscription verification
+
+Outgoing emails
+
+Screenshots are not stored permanently on our servers.
+
+Security Measures
+
+We use:
+
+HTTPS encryption
+
+Secure API routing
+
+No remote JavaScript
+
+No third-party embedding
+
+Stripe’s PCI-compliant systems
+
+Your data is never transmitted unencrypted.
+
+📌 4. Third-Party Services
+
+Scout uses:
+
+SendGrid — Email Delivery
+
+Used to deliver accountability alert emails.
+
+Stripe — Subscription Management
+
+Used to process payments and manage subscription status.
+
+Chrome Storage API
+
+Used to store settings locally on your device.
+
+All third-party services comply with industry privacy standards.
+
+📌 5. Uninstall Tracking Behavior
+
+Chrome allows extensions to specify a URL to be visited when an extension is uninstalled.
+
+Scout uses this to:
+
+Notify your chosen accountability email that Scout was removed
+
+Improve accountability integrity
+
+The data sent includes only the email address configured inside the extension.
+
+No screenshots or history are transmitted during uninstall.
+
+This behavior is permitted under the Chrome Web Store Developer Policy.
+
+📌 6. Data Retention & Deletion
+✔ Screenshot data
+
+Deleted automatically immediately after an email is sent.
+Not retained.
+
+✔ Subscription email
+
+Stored only as long as needed to provide service.
+
+✔ User can delete all data by:
+
+Removing the extension
+
+Clearing Chrome extension storage
+
+Contacting us at {your email}
+
+All requests are processed within 30 days.
+
+📌 7. User Control & Transparency
+
+Users can:
+
+Enable/disable monitoring at any time
+
+Modify or delete blocked sites
+
+Change accountability email
+
+Remove the extension to stop all monitoring
+
+View source code inside the unpacked extension
+
+Contact us to remove any subscription information
+
+📌 8. Children’s Privacy
+
+Scout is not intended for children under 13.
+We do not knowingly collect information from minors.
+
+📌 9. Changes to This Policy
+
+We may update this Privacy Policy as needed.
+Updates will be posted on this page and reflected inside the Chrome Web Store listing.
+
+📌 10. Contact
+
+For questions or data requests:
+
+Email: {your support email}
+Website: {your website if applicable}
+
+🎉 Your Privacy Policy is now ready.
+REQUIRED ACTION:
+
+You must:
+
+✔ Host this Privacy Policy at a public URL
+
+Examples:
+
+https://scout-accountability.vercel.app/privacy
+
+https://your-domain.com/scout/privacy
+
+A GitHub Pages site
+
+A Notion public page
+
+✔ Paste the URL into the Chrome Web Store listing under:
+
+Store Listing → Privacy Practices → Privacy Policy URL
+
+✔ Add a brief summary to the Data Disclosure section:
+
+I can write that for you too — just say:
+
+“Write my Chrome Web Store data disclosure section.”
