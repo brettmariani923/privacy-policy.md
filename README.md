@@ -1,6 +1,6 @@
 🔒 Privacy Policy — Scout Accountability
 
-Last updated: December 07, 2025
+Last Updated: December 07, 2025
 
 Thank you for using Scout Accountability.
 This Privacy Policy explains how your information is collected, used, and protected when using our Chrome extension.
@@ -19,13 +19,13 @@ Send accountability alerts
 
 Validate subscription status
 
-Store inside Chrome (chrome.storage.sync)
+Store locally in Chrome (chrome.storage.sync)
 
-Communicate with our secure backend for subscription verification & email delivery
+Communicate with our backend for subscription verification and email delivery
 
 1.2 Screenshots of Blocked Websites (When Triggered)
 
-Scout captures a screenshot only when the user visits a website they manually added to the Blocked List.
+A screenshot is captured only when you visit a site you manually added to your Blocked List.
 
 Screenshots include:
 
@@ -41,9 +41,9 @@ Never captured without user consent
 
 Never collected automatically
 
-Never captured outside of blocked site visits
+Never captured outside blocked site visits
 
-Sent only as part of email alerts
+Only sent as part of alert emails
 
 1.3 Settings & Preferences
 
@@ -51,13 +51,13 @@ Stored locally in your browser:
 
 Blocked website list
 
-Monitoring enabled / disabled
+Monitoring on/off state
 
 Email address
 
-Subscription activation state
+Subscription activation status
 
-This data never leaves your browser unless needed to send an alert email.
+This data never leaves your device unless required to send an email alert.
 
 1.4 Automatically Sent Diagnostic Events
 
@@ -65,46 +65,54 @@ Scout may notify your configured email when:
 
 Monitoring is enabled or disabled
 
-Settings are changed
+Settings are modified
 
 The extension is uninstalled
 
-These events help maintain accountability integrity.
+These notifications support accountability integrity.
 
 📌 2. How We Use Your Information
 
 We use collected data only to:
 
 ✔ Send screenshot accountability alerts
-✔ Send monitoring on/off alerts
+
+✔ Send monitoring on/off notifications
+
 ✔ Notify when Scout is uninstalled
-✔ Validate and manage subscriptions (via Stripe)
-✔ Deliver emails through SendGrid
+
+✔ Validate subscription status (Stripe)
+
+✔ Deliver emails (SendGrid)
 
 We DO NOT:
 
 ✖ Sell your data
-✖ Use your data for advertising
-✖ Track or profile you
-✖ Use analytics or behavioral tracking
+
+✖ Track you
+
+✖ Profile your behavior
+
+✖ Collect analytics
+
 ✖ Store screenshots permanently
 
 📌 3. How We Store & Protect Data
 Local Storage
 
-Most data (settings, email, blocked sites) is stored in Chrome sync storage.
+Most data (email, blocked sites, settings) is stored only in Chrome sync storage.
 
 Server Storage
 
-Temporarily processes:
+Our backend only temporarily processes:
 
-Screenshots (only during email sending)
+Screenshot images
 
-Subscription validations
+Subscription validation
 
 Email delivery
 
-Screenshots are deleted immediately after emailing.
+Screenshots are never stored permanently.
 
 Security Measures
 
@@ -112,49 +120,47 @@ HTTPS encryption
 
 No remote JavaScript
 
-No advertising or tracking scripts
+No embedded trackers
 
-Stripe PCI-compliant payment systems
+Stripe PCI-compliant processing
 
 Secure API routing
 
-Your data is never transmitted without encryption.
+Your data is never transmitted unencrypted.
 
 📌 4. Third-Party Services
-
-Scout uses trusted third-party services:
-
 Service	Purpose
-SendGrid	Sends email alerts
+SendGrid	Email delivery
 Stripe	Subscription billing & verification
 Chrome Storage API	Local settings storage
 
-All follow industry privacy and security standards.
+All comply with modern security and privacy standards.
 
 📌 5. Uninstall Tracking Behavior
 
-Chrome permits extensions to specify an “uninstall URL.”
-Scout uses this feature to:
+Chrome allows extensions to specify an uninstall URL.
 
-Send a final alert stating Scout was uninstalled
+Scout uses this to:
 
-Only the configured email address is transmitted.
-No screenshots or browsing history are sent.
+Notify your configured accountability email that Scout was removed
 
-This is compliant with Chrome Web Store policies.
+Only your email address is transmitted.
+No screenshots or history are included.
+
+This is permitted under Chrome Web Store Developer Policies.
 
 📌 6. Data Retention & Deletion
 ✔ Screenshots
 
-Immediately deleted after emailing.
+Deleted automatically immediately after being emailed.
 
 ✔ Subscription Email
 
-Retained only as needed for service continuity.
+Retained only as long as needed to provide service.
 
-✔ Full Data Removal Options
+✔ Full Data Removal
 
-Users may delete all data by:
+You can delete your data by:
 
 Removing the extension
 
@@ -168,17 +174,17 @@ Requests are processed within 30 days.
 
 Users can:
 
-Enable or disable monitoring anytime
+Enable or disable monitoring
 
-Modify or delete blocked sites
+Edit or delete blocked websites
 
-Change the accountability email
+Change their accountability email
 
-Remove the extension to stop all monitoring
+Remove Scout at any time
 
-View the extension’s source code
+Review the extension’s internal source code
 
-Request deletion of subscription data
+Request deletion of subscription-related data
 
 📌 8. Children’s Privacy
 
@@ -187,8 +193,8 @@ We do not knowingly collect information from minors.
 
 📌 9. Changes to This Policy
 
-We may update this Privacy Policy as needed.
-Changes will be posted on this page and in the Chrome Web Store listing.
+This policy may be updated from time to time.
+Updates will be posted here and in the Chrome Web Store listing.
 
 📌 10. Contact
 
@@ -197,30 +203,30 @@ For privacy questions or data requests:
 Email: brettmariani923@gmail.com
 
 
-Website: (add yours if available)
+Website: (add if applicable)
 
 ⚖️ Terms of Service — Scout Accountability
 
-Last updated: (add today’s date)
+Last Updated: (add today’s date)
 
 By installing or using Scout Accountability, you agree to these Terms of Service.
 If you do not agree, uninstall the extension immediately.
 
 📌 1. Description of Service
 
-Scout Accountability is a Chrome extension that:
+Scout Accountability is a Chrome extension designed to:
 
-Monitors user-selected websites
+Monitor websites selected by the user
 
-Captures screenshots of blocked site visits
+Capture screenshots of blocked site visits
 
-Sends accountability emails
+Send accountability emails
 
-Sends alerts when monitoring changes or Scout is uninstalled
+Notify when monitoring is changed or the extension is uninstalled
 
-Manages subscriptions via Stripe
+Manage subscriptions via Stripe
 
-Scout is intended for personal accountability, not surveillance.
+Scout is intended for self-accountability, not surveillance.
 
 📌 2. Eligibility
 
@@ -232,7 +238,7 @@ You have authority to install browser extensions
 
 You consent to monitoring and screenshot features
 
-You understand Scout depends on websites you manually block
+You understand Scout only monitors sites you add
 
 Use by minors should be supervised.
 
@@ -246,90 +252,93 @@ Configure blocked sites responsibly
 
 Obtain consent before capturing another person’s screen
 
-Not use Scout to harm, spy on, or monitor others
+Not misuse Scout to harm or spy on others
 
 Maintain a valid subscription email
 
-Scout is not a surveillance tool.
+Scout must not be used as a surveillance tool.
 
 📌 4. Monitoring Features & User Consent
 
-By using Scout, you acknowledge that Scout may:
+By using Scout, you agree that Scout may:
 
-✔ Capture screenshots — only on blocked site visits
+✔ Capture screenshots only on blocked site visits
+
 ✔ Email those screenshots to your chosen address
-✔ Send alerts when monitoring is toggled
-✔ Send an uninstall alert
-✔ Never capture data without your configuration
 
-You are responsible for complying with privacy laws in your region.
+✔ Send monitoring on/off alerts
+
+✔ Send uninstall notifications
+
+✔ Never capture data unless you configure it
+
+You are responsible for ensuring Scout is used lawfully in your region.
 
 📌 5. Subscription & Billing (Stripe)
 
-Subscriptions are managed through Stripe.
+Subscriptions are handled through Stripe.
 
 By subscribing, you authorize:
 
-Monthly recurring payments
+Monthly recurring charges
 
-Automatic renewals
+Automatic renewal
 
-Secure storage of payment info through Stripe (not Scout)
+Secure handling of payment info via Stripe
 
-You may cancel at any time; access continues through the billing cycle.
+You may cancel anytime.
 
 📌 6. Refund Policy
 
-Refunds may be offered for:
+Refunds may be granted for:
 
 Duplicate charges
 
 Billing errors
 
-Service-related issues
+Technical issues preventing use
 
-Contact {your support email} for help.
-Mid-cycle cancellations are not automatically refunded.
+Contact {your support email} for refund inquiries.
 
 📌 7. Acceptable Use Policy
 
 You may NOT use Scout to:
 
-Spy on other users
+Spy on individuals
 
-Capture screenshots of others without consent
+Capture screenshots without consent
 
-Monitor employees, students, or third parties
+Monitor employees, students, or others unlawfully
 
-Violate website terms
+Violate website Terms of Service
 
-Circumvent Google/Chrome security rules
+Circumvent Chrome or Google security features
 
-Violations may result in termination or legal consequences.
+Violation may result in suspension or legal action.
 
 📌 8. Data Handling & Privacy
 
 Scout follows the Privacy Policy.
-By using Scout, you understand that:
+By using Scout, you understand:
 
 Screenshots are temporary
 
-No browsing history is stored
+Browsing history is never stored
 
 Subscription checks use your email
 
-Data is encrypted in transit
+All data is encrypted in transit
 
 📌 9. Uninstall Behavior
 
-Scout may send an email when the extension is uninstalled.
-This includes only your configured email address.
+Scout may send an email when removed from Chrome.
+This message contains only your configured email address.
 
-No screenshots, logs, or browsing data are sent.
+No data beyond that is transmitted.
 
 📌 10. Intellectual Property
 
-Scout’s:
+All Scout:
 
 Code
 
@@ -337,35 +346,35 @@ Branding
 
 Design
 
-Logo
+Logos
 
 belong to {Your Name or Company}.
 
-You may not reverse engineer, redistribute, or resell Scout.
+You may not reverse engineer, resell, or redistribute Scout.
 
 📌 11. Termination
 
 We may terminate access if:
 
-Terms are violated
+You violate these Terms
 
-Subscription payments fail
+Your subscription lapses
 
-Illegal or harmful usage is detected
+Illegal activity is detected
 
-Monitoring stops immediately upon termination.
+All monitoring stops immediately upon termination.
 
 📌 12. Disclaimer of Warranties
 
-Scout is provided “as-is”:
+Scout is provided “as-is”, with no warranties of:
 
-No guarantee of uninterrupted service
+Uninterrupted service
 
-No guarantee of 100% successful screenshot capture
+Screenshot capture success
 
-No guarantee of website compatibility
+Full compatibility with all websites
 
-Use at your own risk.
+Use at your own discretion.
 
 📌 13. Limitation of Liability
 
@@ -373,24 +382,24 @@ We are not liable for:
 
 Lost data
 
-Email delays
+Email delivery delays
 
 Misuse by users
 
-Failure of monitoring features
+Failed monitoring
 
 Indirect or incidental damages
 
-Your sole remedy is to uninstall Scout and cancel your subscription.
+Your only remedy is to uninstall Scout and cancel your subscription.
 
 📌 14. Changes to These Terms
 
 We may update these Terms at any time.
-Continued use of Scout constitutes acceptance of updated Terms.
+Continued use of Scout indicates acceptance of updated Terms.
 
 📌 15. Contact
 
-For support or legal inquiries:
+For support:
 
 Email: {your support email}
 Website: (optional)
