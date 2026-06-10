@@ -296,9 +296,7 @@ Duplicate charges
 
 Billing errors
 
-Technical issues preventing use
-
-Contact {your support email} for refund inquiries.
+Contact brettmariani923@gmail.com for refund inquiries.
 
 📌 7. Acceptable Use Policy
 
