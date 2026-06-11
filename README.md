@@ -129,10 +129,11 @@ Secure API routing
 Your data is never transmitted unencrypted.
 
 📌 4. Third-Party Services
-Service	Purpose
-SendGrid	Email delivery
-Stripe	Subscription billing & verification
-Chrome Storage API	Local settings storage
+
+Service | Purpose
+SendGrid =	Email delivery
+Stripe	= Subscription billing & verification
+Chrome = Storage API	Local settings storage
 
 All comply with modern security and privacy standards.
 
@@ -292,9 +293,9 @@ You may cancel anytime.
 
 Refunds may be granted for:
 
-Duplicate charges
+Same month duplicate charges
 
-Billing errors
+Same month Billing errors
 
 Contact brettmariani923@gmail.com for refund inquiries.
 
@@ -399,5 +400,4 @@ Continued use of Scout indicates acceptance of updated Terms.
 
 For support:
 
-Email: {your support email}
-Website: (optional)
+Email: brettmariani923@gmail.com
